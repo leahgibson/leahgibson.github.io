@@ -1,4 +1,4 @@
-# Colin's Homepage
+# Leah's Homepage
 
 ## Welcome to my site!
 
@@ -21,3 +21,4 @@ for i = 1 to K
 	sum = sum + i;
 end
 ```
+

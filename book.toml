@@ -1,9 +1,9 @@
 [book]
-authors = ["Colin Roberts"]
+authors = ["Leah Gibson"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Colin Roberts"
+title = "Leah Gibson"
 [preprocessor.index]
 [preprocessor.links]
 [build]
