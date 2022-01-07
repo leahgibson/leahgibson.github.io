@@ -2,8 +2,8 @@
 
 [Home](index.md)
  - [Work Experience and Involvement](experience_involvement.md)
-	- [GSMMC2020](gsmmc_20.md)
-	- [MIP2020](mpi20.md)
+	- [GSMMC2021](gsmmc_21.md)
+	- [MIP2021](mpi21.md)
 ---
  - [Research](research.md)
 	- [Masters Thesis Work](ma_thesis.md)
