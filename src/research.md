@@ -1,6 +1,6 @@
 # Research
 
-My passion for the outdoors gratly drives my mathematical interesting, leading me to pursure reserach oportunities in mathematical modeling, atmospheric science, and environmental mathematics. 
+My passion for the outdoors gratly drives my mathematical interesting, leading me to pursure reserach oportunities in mathematical modeling, atmospheric science, and environmental mathematics. My masters thesis research involves atmospheric chemistry and mathematical modeling. I am also working on a separate project applying machiene learning and causal infrence to data from the Global N2O Database to better predict N2O emissions in farmland. 
 
 ### Publications
 

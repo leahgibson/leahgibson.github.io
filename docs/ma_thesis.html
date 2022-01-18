@@ -83,7 +83,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Home</a></li><li class="chapter-item expanded "><a href="experience_involvement.html"><strong aria-hidden="true">1.</strong> Work Experience and Involvement</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="gsmmc_20.html"><strong aria-hidden="true">1.1.</strong> GSMMC2020</a></li><li class="chapter-item expanded "><a href="mpi20.html"><strong aria-hidden="true">1.2.</strong> MIP2020</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="research.html"><strong aria-hidden="true">2.</strong> Research</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ma_thesis.html" class="active"><strong aria-hidden="true">2.1.</strong> Masters Thesis Work</a></li><li class="chapter-item expanded "><a href="n2o.html"><strong aria-hidden="true">2.2.</strong> N2O Database</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="teaching.html"><strong aria-hidden="true">3.</strong> Teaching</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="hobbies.html"><strong aria-hidden="true">4.</strong> Hobbies and Other Items</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Home</a></li><li class="chapter-item expanded "><a href="experience_involvement.html"><strong aria-hidden="true">1.</strong> Work Experience and Involvement</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="gsmmc_21.html"><strong aria-hidden="true">1.1.</strong> GSMMC2021</a></li><li class="chapter-item expanded "><a href="mpi21.html"><strong aria-hidden="true">1.2.</strong> MIP2021</a></li><li class="chapter-item expanded "><a href="outreach.html"><strong aria-hidden="true">1.3.</strong> Math Outreach</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="research.html"><strong aria-hidden="true">2.</strong> Research</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ma_thesis.html" class="active"><strong aria-hidden="true">2.1.</strong> Masters Thesis Work</a></li><li class="chapter-item expanded "><a href="n2o.html"><strong aria-hidden="true">2.2.</strong> N2O Database</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="teaching.html"><strong aria-hidden="true">3.</strong> Teaching</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="hobbies.html"><strong aria-hidden="true">4.</strong> Hobbies and Other Items</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="photography.html"><strong aria-hidden="true">4.1.</strong> Photography</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -145,6 +145,10 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="masters-thesis-work"><a class="header" href="#masters-thesis-work">Masters Thesis Work</a></h1>
+<p>My masters thesis is motivated from atmospheric science. Human caused emissions have increased the number of atmospheric aerosoles in the air, leading to an increase in new particap formation (NPF). These particles have an impact on air quality, cloud formation, heman health, and climate change, although the full extent of their impact if not yet known. Many of these reactions are acid base reactions (ex: ammonia and sulpheric acid). The reaction of ammonia and hydrochloric acid is less common in the atmosphere but is relatively easier to work with, thus providing a foundation for understanding these acid base atmospheric reactions which can hopefully be generalized to the other reactions.</p>
+<h2 id="modeling-the-counterdiffusion-of-ammonia-and-hydrochloric-acid"><a class="header" href="#modeling-the-counterdiffusion-of-ammonia-and-hydrochloric-acid">Modeling the counterdiffusion of ammonia and hydrochloric acid</a></h2>
+<p>My research uses PDE's to model a one dimensionsal version of the reaction, focusing on modeling the reaction post homogenous nucleation. </p>
+<h2 id="pca-applied-to-video-data-to-study-the-curvature-of-the-reaction-front"><a class="header" href="#pca-applied-to-video-data-to-study-the-curvature-of-the-reaction-front">PCA applied to video data to study the curvature of the reaction front</a></h2>
 
                     </main>
 
@@ -175,6 +179,20 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 

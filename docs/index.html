@@ -83,7 +83,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html" class="active">Home</a></li><li class="chapter-item expanded "><a href="experience_involvement.html"><strong aria-hidden="true">1.</strong> Work Experience and Involvement</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="gsmmc_20.html"><strong aria-hidden="true">1.1.</strong> GSMMC2020</a></li><li class="chapter-item expanded "><a href="mpi20.html"><strong aria-hidden="true">1.2.</strong> MIP2020</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="research.html"><strong aria-hidden="true">2.</strong> Research</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ma_thesis.html"><strong aria-hidden="true">2.1.</strong> Masters Thesis Work</a></li><li class="chapter-item expanded "><a href="n2o.html"><strong aria-hidden="true">2.2.</strong> N2O Database</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="teaching.html"><strong aria-hidden="true">3.</strong> Teaching</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="hobbies.html"><strong aria-hidden="true">4.</strong> Hobbies and Other Items</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html" class="active">Home</a></li><li class="chapter-item expanded "><a href="experience_involvement.html"><strong aria-hidden="true">1.</strong> Work Experience and Involvement</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="gsmmc_21.html"><strong aria-hidden="true">1.1.</strong> GSMMC2021</a></li><li class="chapter-item expanded "><a href="mpi21.html"><strong aria-hidden="true">1.2.</strong> MIP2021</a></li><li class="chapter-item expanded "><a href="outreach.html"><strong aria-hidden="true">1.3.</strong> Math Outreach</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="research.html"><strong aria-hidden="true">2.</strong> Research</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="ma_thesis.html"><strong aria-hidden="true">2.1.</strong> Masters Thesis Work</a></li><li class="chapter-item expanded "><a href="n2o.html"><strong aria-hidden="true">2.2.</strong> N2O Database</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="teaching.html"><strong aria-hidden="true">3.</strong> Teaching</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="hobbies.html"><strong aria-hidden="true">4.</strong> Hobbies and Other Items</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="photography.html"><strong aria-hidden="true">4.1.</strong> Photography</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -146,10 +146,13 @@
                     <main>
                         <h1 id="leahs-homepage"><a class="header" href="#leahs-homepage">Leah's Homepage</a></h1>
 <h2 id="welcome-to-my-site"><a class="header" href="#welcome-to-my-site">Welcome to my site!</a></h2>
-<img src="/files/images/profile_pic.jpg" alt="drawing" width="200"/>
-<h3 id="i-am-a-mathematics-graduate-student-at-colorado-state-university-my-areas-of-interest-are-pdes-mathematical-modeling-and-environmental-focused-mathematics"><a class="header" href="#i-am-a-mathematics-graduate-student-at-colorado-state-university-my-areas-of-interest-are-pdes-mathematical-modeling-and-environmental-focused-mathematics">I am a mathematics graduate student at Colorado State University. My areas of interest are PDE's, mathematical modeling, and environmental focused mathematics.</a></h3>
-<p>Here is a copy of my <a href="files/documents/cv.pdf">CV</a> and my <a href="files/documents/resume.pdf">resume</a>.</p>
+<img src="/files/images/leah.jpg" alt="drawing" height="215"/>
+<img src="/files/images/sopris.jpg" alt="drawing" height="215"/>
+<img src="/files/images/canyon.jpg" alt="drawing" height="215"/>
+<h3 id="i-am-a-mathematics-graduate-student-at-colorado-state-university-my-areas-of-interest-are-pdes-mathematical-modeling-and-environmental-focused-mathematics-when-im-not-doing-math-i-enjoy-running-hiking-backpacking-and-photographing-all-of-the-beautiful-places-i-visit"><a class="header" href="#i-am-a-mathematics-graduate-student-at-colorado-state-university-my-areas-of-interest-are-pdes-mathematical-modeling-and-environmental-focused-mathematics-when-im-not-doing-math-i-enjoy-running-hiking-backpacking-and-photographing-all-of-the-beautiful-places-i-visit">I am a mathematics graduate student at Colorado State University. My areas of interest are PDE's, mathematical modeling, and environmental focused mathematics. When I'm not doing math, I enjoy running, hiking, backpacking, and photographing all of the beautiful places I visit!</a></h3>
+<p>Here is a copy of my <a href="files/documents/Official_CV.pdf">CV</a>.</p>
 <p>You can contact me at ldgibson@rams.colostate.edu. </p>
+<p>View my Linkedin at </p>
 <p>Block math test \[\sum_{n=0}^\infty \frac{f^{(n)}(x_0)}{n!}(x-x_0)\]</p>
 <p>Inline math test \( H^k_{\textrm{dR}}(M) \cong H_k^{\textrm{dR}}(M,\partial M) \)</p>
 <p>add linked in, github, and email links with textawesome</p>
@@ -182,6 +185,20 @@ end
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
